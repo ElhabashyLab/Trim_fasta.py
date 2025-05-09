@@ -15,16 +15,16 @@ The script can be run directly from the command line. The following command-line
 > python trim_fasta.py -i INPUT_FILE -o OUTPUT_FILE 
 
 # Argument
--i, --input	str	Path to the input FASTA file (required)
--o, --output	str	Path to the output FASTA file (required)
--f	int	First residue to keep (1-based, inclusive)
--l	int	Last residue to keep (inclusive)
--t	int	Trim N residues from the end (conflicts with -f or -l)
--m	int	Minimum length of trimmed sequence to keep (default: 0)
+-i, --input	str	Path to the input FASTA file (required)  
+-o, --output	str	Path to the output FASTA file (required)  
+-f	int	First residue to keep (1-based, inclusive)  
+-l	int	Last residue to keep (inclusive)  
+-t	int	Trim N residues from the end (conflicts with -f or -l)  
+-m	int	Minimum length of trimmed sequence to keep (default: 0)  
 
 # Examples
 Keep residues 5 to 100 (inclusive):
-> python fasta_trimmer.py -i input.fasta -o trimmed.fasta -f 5 -l 100
+> python3 fasta_trimmer.py -i input.fasta -o trimmed.fasta -f 5 -l 100
 
 Trim 10 residues from the end of all sequences:
 > python3 fasta_trimmer.py -i input.fasta -o trimmed.fasta -t 10
