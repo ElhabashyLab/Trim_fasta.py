@@ -3,7 +3,7 @@
 Command-line Python script allows for flexible trimming of protein FASTA sequences. Users can trim sequences by specifying a range of positions, removing residues from the end, and filtering based on minimum sequence length.
 
 # Installation
-> git clone https://github.com/YourUsername/trim_fasta.git  
+> git clone https://github.com/ElhabashyLab/trim_fasta.git  
 cd trim_fasta
 
 # Requirements
