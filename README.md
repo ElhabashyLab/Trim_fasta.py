@@ -12,7 +12,7 @@ No external dependencies are required
 
 # Usage
 The script can be run directly from the command line. The following command-line arguments are available for use.
-> python trim_fasta.py -i INPUT_FILE -o OUTPUT_FILE 
+> python3 trim_fasta.py -i INPUT_FILE -o OUTPUT_FILE 
 
 # Argument
 -i, --input	str	Path to the input FASTA file (required)  
@@ -33,8 +33,8 @@ Keep residues from position 20 to the end, but only if result is at least 50 res
 > python3 fasta_trimmer.py -i input.fasta -o trimmed.fasta -f 20 -m 50
 
 # License
-This script is licensed under the MIT License. See the LICENSE file for more details.
-This script is based on the FASTX-toolkit by A. Gordon (assafgordon@gmail.com), originally written in C and licensed under the GNU Affero General Public License (AGPL).
+This script is licensed under the MIT License. See the LICENSE file for more details.  
+This script is based on the FASTX-toolkit (https://github.com/agordon/fastx_toolkit) by A. Gordon (assafgordon@gmail.com), originally written in C and licensed under the GNU Affero General Public License (AGPL).
 
 
 
